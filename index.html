@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Tasks</title>
+
+    <!-- EXTERNAL CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- INTERNAL CSS -->
+    <style>
+        /* ====== TASK 1 Internal CSS (Overrides Inline) ====== */
+        .btn-custom {
+            background-color: blue !important;
+        }
+
+        /* ====== TASK 2 Newsletter Internal CSS Only ====== */
+        .newsletter {
+            background: white;
+            width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .header {
+            background: #4285F4;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 6px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+            color: #555;
+        }
+
+        /* ====== TASK 3 Internal CSS (Heading & Image) ====== */
+        .card h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .card img {
+            width: 120px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ======================= TASK 1 ======================= -->
+    <h2 style="color: rgb(41, 14, 116);width: 120;border: #4285F4;"border-radius>Are you interested in any braking news</h2>
+
+    <!-- Inline CSS (green) → overridden by internal (blue) -->
+    <button class="btn-custom" style="background-color: green;">
+        Click Me <a href="https://monjurbd.blogspot.com/"></a>
+    </button>
+
+
+
+    <!-- ======================= TASK 2 ======================= -->
+    <h2 style="text-align:center; margin-top:40px;">  Newsletter</h2>
+
+    <div class="newsletter">
+        <div class="header">
+            <h2 style="margin:0;">Google Weekly Newsletter</h2>
+        </div>
+
+        <p>Hello Subscriber,</p>
+
+        <p style="line-height:1.6;">
+            Here are your latest updates from Google.
+        </p>
+
+        <img src="al.jpg.jpg"
+             style="width:100%; border-radius:6px;">
+
+        <p style="font-weight:bold;">Highlights:</p>
+        <ul>
+            <li>New AI tools launched</li>
+            <li>Improved Gmail security</li>
+            <li>Better search analytics</li>
+        </ul>
+
+        <p style="text-align:center;">
+            <a href="#" 
+               style="background:hsl(96, 89%, 61%); color:white; padding:10px 20px;
+                      border-radius:5px; text-decoration:none;">Learn More</a>
+        </p>
+
+        <div class="footer">
+            © 2025 Google Newsletter. All rights reserved.
+        </div>
+    </div>
+
+
+
+    <!-- ======================= TASK 3 ======================= -->
+    <h2 style="text-align:center; margin-top:40px;">My Profile </h2>
+
+    <div class="card">
+        <img src="monjur.jpg.png" alt="Profile Picture">
+
+        <h2>Abdul Mukit monjur</h2>
+
+        <!-- Inline CSS Button -->
+        <button style="
+            background: green; 
+            color: white; 
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        ">
+            Follow
+        </button>
+    </div>
+
+</body>
+</html>

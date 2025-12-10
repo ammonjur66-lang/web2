@@ -1,0 +1,31 @@
+/* =======================
+   EXTERNAL CSS
+   ======================= */
+
+/* TASK 1 – External CSS for Button */
+.btn-custom {
+    background-color: red;     
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* TASK 3 – Profile Card Container */
+.card {
+    width: 300px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    text-align: center;
+    margin: 30px auto;
+}
+
+/* Optional body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    padding: 20px;
+}
